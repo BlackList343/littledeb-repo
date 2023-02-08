@@ -6,28 +6,33 @@
     </head>
     <body>
         <header>
-            <img src="testimag.png">
+            <div class="parent">
+            <img src="testimag.png" class="child" style="display:block; width: 50%; margin:auto;">
+            </div>
         </header>
         <nav>
-            <ul>
+            <div>
+            <style>#list{display:inline; text-align:center;}</style>    
+            <ul id="list">
                 <li><a href="index.html">Home</a></li>
                 <li><a href='location.html'>Location</a></li>
                 <li><a href='blog.html'>Blog</a></li>
             </ul>
+            </div>
         </nav>
         <main>
-            <h1>Blog</h1>
+            <h1 style="text-align:center;">Blog</h1>
             <article>
-                <h2>20% off this weekend</h2>
-                <p>Come down to Little Lemon and your meal will be 20% off!</p>
+                <h2 style="text-align:center;">20% off this weekend</h2>
+                <p style="text-align:center;">Come down to Little Lemon and your meal will be 20% off!</p>
             </article>
             <article>
-                <h2>Our new menu</h2>
-                <p>We've updated our menu with new dinners.</p>
+                <h2 style="text-align:center;">Our new menu</h2>
+                <p style="text-align:center;">We've updated our menu with new dinners.</p>
             </article>
         </main>
         <footer>
-            <p>Copyright Little Lemon</p>
+            <p style="text-align:center;">Copyright Little Lemon</p>
         </footer>
     </body>
 </html>
